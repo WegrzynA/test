@@ -9,4 +9,8 @@ public class B {
     public B(A a) {
         this.a = a;
     }
+
+    String welcome() {
+        return "Welcome from B";
+    }
 }
