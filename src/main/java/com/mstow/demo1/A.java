@@ -1,8 +1,8 @@
 package com.mstow.demo1;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class A {
     {
         System.out.println("A is loaded!");

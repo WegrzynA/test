@@ -51,7 +51,7 @@
 		</dependency>
 
 	</dependencies>
-
+<!-- spring-boot-maven-plugin - ta wtyczka pakuje projekt jako wykonywalny jar -->
 	<build>
 		<plugins>
 			<plugin>
