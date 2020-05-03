@@ -62,6 +62,12 @@
 			<version>1.4.199</version>
 		</dependency>
 
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
 	</dependencies>
 <!-- spring-boot-maven-plugin - ta wtyczka pakuje projekt jako wykonywalny jar -->
 	<build>
