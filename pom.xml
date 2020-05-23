@@ -83,6 +83,11 @@
 			<artifactId>querydsl-jpa</artifactId>
 			<version>3.6.3</version>
 		</dependency>
+		<dependency>
+			<groupId>one.util</groupId>
+			<artifactId>streamex</artifactId>
+			<version>0.7.2</version>
+		</dependency>
 	</dependencies>
 <!-- spring-boot-maven-plugin - ta wtyczka pakuje projekt jako wykonywalny jar -->
 	<build>
