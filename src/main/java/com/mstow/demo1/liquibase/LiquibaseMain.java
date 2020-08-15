@@ -8,6 +8,7 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource(value = "classpath:liquibase/application.properties")
 public class LiquibaseMain {
 
+
     public static void main(String[] args) {
         SpringApplication.run(LiquibaseMain.class, args);
     }
