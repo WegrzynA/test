@@ -47,6 +47,21 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>com.mstow</groupId>
+                <artifactId>maven-plugin</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>dependency-counter</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <scope>compile</scope>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 

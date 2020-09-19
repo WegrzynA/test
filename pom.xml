@@ -6,6 +6,7 @@
 	<modules>
 		<module>maven</module>
 		<module>maven-dep</module>
+		<module>maven-plugin</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
