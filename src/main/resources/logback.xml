@@ -1,0 +1,3 @@
+<configuration>
+    <logger name="com.mstow.demo1.logger" level="ERROR"/>
+</configuration>
